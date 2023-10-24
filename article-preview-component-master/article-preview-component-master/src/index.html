@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Article preview component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+    <link rel="stylesheet" href="./css/estilos.css" />
+  </head>
+  <body class="h-screen flex justify-center items-center bg-light-blue">
+    <div
+      class="bg-white-color w-[325PX] max-w-[925px] h-[512px] rounded-[10px] flex flex-col justify-between tablet2:w-[90%] tablet2:h-[360px] tablet2:flex-row"
+    >
+      <div
+        class="imagen__container w-full h-[200px] tablet2:w-[363px] tablet2:h-full border"
+      >
+        <img
+          class="w-full h-[200px] rounded-t-[10px] :w-[300px] tablet2:w-[363px] tablet2:h-full tablet2:rounded-s-[10px] tablet2:rounded-tr-[0]"
+          src="./images/drawers.jpg"
+          alt="drawers"
+        />
+      </div>
+      <div
+        class="mt-[28px] w-full flex flex-col justify-between tablet2:m-0 tablet2:py-[40px] tablet2:pl-[23px] tablet2:pr-[26px]"
+      >
+        <article class="px-[28px]">
+          <h1
+            class="font-semibold text-[17px] mb-[15px] text-very-blue tablet2:text-[24px]"
+          >
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p
+            class="text-[14px] mb-[20px] text-dark-blue font-[450] tablet2:text-[16px]"
+          >
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </article>
+        <section
+          class="container__share h-[64px] relative flex items-center rounded-b-[10px] px-[28px]"
+        >
+          <div class="perfil w-full flex justify items-center">
+            <img
+              class="rounded-full w-[40px] h-[40px] mr-[16px] tablet2:w-[52px] tablet2:h-[52px]"
+              src="images/avatar-michelle.jpg"
+              alt="avatar"
+            />
+            <article>
+              <h3
+                class="font-semibold text-[15px] text-very-blue tablet2:text-[16px]"
+              >
+                Michelle Appleton
+              </h3>
+              <p class="text-grayish-blue">28 Jun 2020</p>
+            </article>
+          </div>
+
+          <div
+            class="redes__active w-full h-[64px] hidden items-center rounded-b-[10px] px-[28px] bg-very-blue absolute left-0 bottom-0 z-10 tablet2:w-[316px] tablet2:rounded-[10px] tablet2:justify-center tablet2:bottom-[90px] tablet2:left-[410px]"
+          >
+            <section class="w-[176px] flex justify-between relative">
+              <p class="tracking-[4px] text-grayish-blue">SHARE</p>
+              <div class="redes w-[92px] flex justify-between items-center">
+                <img
+                  class="w-[20px] h-[20px] cursor-pointer"
+                  src="./images/icon-facebook.svg"
+                  alt="icon-facebook"
+                />
+                <img
+                  class="w-[20px] h-[20px] cursor-pointer"
+                  src="./images/icon-twitter.svg"
+                  alt="icon-twitter"
+                />
+                <img
+                  class="w-[20px] h-[20px] cursor-pointer"
+                  src="./images/icon-pinterest.svg"
+                  alt="icon-pinterest"
+                />
+              </div>
+              <div class="indicador hidden tablet2:block w-[30px] h-[30px] bg-very-blue rotate-45 absolute top-[28px] left-[50%]"></div>
+            </section>
+          </div>
+          <div
+            class="logo__compartir w-[31px] h-[31px] absolute right-[28px] top-[16.5px] bg-light-blue rounded-full cursor-pointer z-20 tablet2:w-[40px] tablet2:h-[40px] flex justify-center items-center tablet2:top-[12px]"
+          >
+            <img
+              class="tablet2:w-[18px] tablet2:h-[18px]"
+              src="images/icon-share.svg"
+              alt="share"
+            />
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. </div>-->
+  </body>
+</html>

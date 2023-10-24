@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .new-article {
+    color: white;
+    border-bottom: 2px solid #5f5f79;
+    height: 120px;
+  }
+  .new-article-h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .new-article-p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #c9c8de;
+  }
+  .tec-article {
+    display: flex;
+    height: 129px;
+    max-width: 346px;
+  }
+  .tec-img {
+    width: 100px;
+    margin-right: 22px;
+  }
+  .tec-num {
+    font-size: 30px;
+    font-weight: bold;
+    color: #c4c2c8;
+  }
+  .tec-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .tec-p{
+    line-height: 25px;
+    font-size: 15px;
+    color: #62606C;
+  }
+
+}
